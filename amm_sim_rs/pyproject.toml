@@ -1,0 +1,16 @@
+[build-system]
+requires = ["maturin>=1.4,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "amm_sim_rs"
+version = "0.1.0"
+description = "High-performance AMM simulation engine in Rust"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["amm", "simulation", "defi"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "amm_sim_rs"
