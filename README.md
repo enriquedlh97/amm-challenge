@@ -1,5 +1,7 @@
 # AMM Fee Strategy Challenge
 
+**https://ammchallenge.com**
+
 Design dynamic fee strategies for a constant-product AMM. Your goal: maximize **edge**.
 
 ## Submission
