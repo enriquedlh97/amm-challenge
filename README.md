@@ -166,6 +166,21 @@ contract Strategy is AMMStrategyBase {
 }
 ```
 
+## Syncing with Upstream
+
+This repo is forked from [benedictbrady/amm-challenge](https://github.com/benedictbrady/amm-challenge). To pull in the latest updates:
+
+```bash
+git checkout main
+git fetch upstream
+git merge upstream/main
+git push origin main
+```
+
+Remotes:
+- `origin` — your fork (push here)
+- `upstream` — original repo (pull updates from here)
+
 ## CLI
 
 ```bash
